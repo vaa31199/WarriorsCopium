@@ -1,2 +1,4 @@
 # WarriorsCopium
-I was annoyed about the refereeing performance in the 2023 Warriors-Lakers series, so I wrote some code to prove my point that the Warriors got screwed.
+I was annoyed about the refereeing performance in the 2023 Warriors-Lakers playoff series, so I wrote some code to prove my point that the Warriors got screwed.
+
+The sole piece of code for this short "project" takes the Lakers scores from the series and subtracts the points the scored from free throws. From there, an estimation is made for how many free throws they would have made if the series was called down the middle for both teams, assuming that both teams got an equal number of free throw attempts. This estimation is then added back to the Lakers' original score, and then compared to the Warriors' score from the game; the final output is a statement of whether the Warriors or Lakers would have won the game in regulation, or if they would have needed to go to overtime to find a winner.

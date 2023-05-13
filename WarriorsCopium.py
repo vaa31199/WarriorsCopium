@@ -25,12 +25,12 @@ def result(w, l):
 
 ### STAGE 1 VARIABLES ###
 
-game1Fouls = calledEven(6,     86.2)
-game2Fouls = calledEven(16,   58.8)
-game3Fouls = calledEven(17,   75.7)
+game1Fouls = calledEven(6, 86.2)
+game2Fouls = calledEven(16, 58.8)
+game3Fouls = calledEven(17, 75.7)
 game4Fouls = calledEven(12, 100.0)
-game5Fouls = calledEven(15,   80.0)
-game6Fouls = calledEven(14,   73.8)
+game5Fouls = calledEven(15, 80.0)
+game6Fouls = calledEven(14, 73.8)
 
 ### STAGE 2 VARIABLES ###
 
@@ -45,7 +45,7 @@ game6 = actualScore(122, 31, game6Fouls)
 
 result(112, game1)
 result(127, game2)
-result(97,   game3)
+result(97, game3)
 result(101, game4)
 result(121, game5)
 result(101, game6)
